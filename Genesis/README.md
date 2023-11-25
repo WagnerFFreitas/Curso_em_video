@@ -1,0 +1,2 @@
+# Genesis
+Praticando Wordpress
