@@ -2,7 +2,9 @@
 
 Cronograma de aprendizado:
 
-1º Aulas de HTML e CSS
-2º javaScript
-3º Aula de WordPress
-4º Aula de Python
+1º Curso de HTML;
+2° Curso de CSS;
+3º Curso de JavaScript;
+4° Curso de MySQL;
+5º Curso de WordPress
+6º Curso de Python
