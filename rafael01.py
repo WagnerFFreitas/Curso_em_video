@@ -24,7 +24,7 @@ while opção != 7:
     elif opção == 4:
         print('seu peso é de', peso, '.')
     elif opção == 5:
-        print('seu nome é', nome, 'e você nasceu no dia ', data, 'por isso você fez ou vai fazer', idade, 'e mais uma informação você pesa', peso, 'kilos', 'e seu time é o', time, '.')
+        print('seu nome é', nome, 'e você nasceu no dia ', data, 'por isso você fez ou vai fazer', idade, 'e mais uma informação você pesa', peso, 'quilos', 'e seu time é o', time, '.')
     elif opção == 6:
         print('Seu time de coração é o', time, '.')
     elif opção == 7:
