@@ -1,3 +1,7 @@
+# Este código cria um desenho de duas estrelas de cinco pontas que vai sendo repetida formando um espiral com varias pontas e também ao crescer vai mudando a sua cor
+# É importado a biblioteca Tartaruga(turtle)
+
+
 import colorsys
 import turtle
 

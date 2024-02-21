@@ -1,4 +1,6 @@
-# Este código cria um desenho de um hexágono que vai sendo repetida e também mudando a sua cor das linhas em forma espiral, importando a biblioteca Tartaruga(turtle)
+# Este código cria um desenho de um hexágono que vai sendo repetida e também mudando a sua cor das linhas em forma espiral.
+# É importado a biblioteca Tartaruga(turtle)
+
 import turtle
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
 t = turtle.Pen()

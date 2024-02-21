@@ -1,3 +1,6 @@
+# Este código cria um desenho de formas geométrica que vai sendo alterando ao crescer em forma espiral de cor verde.
+# É importado a biblioteca Tartaruga(turtle)
+
 import turtle
 
 a =0

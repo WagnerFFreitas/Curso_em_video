@@ -1,3 +1,6 @@
+# Este código cria um desenho de uma estrela de cinco pontas que vai sendo repetida formando um aspiral de cor vermelha
+# É importado a biblioteca Tartaruga(turtle)
+
 import turtle
 import colorsys
 
