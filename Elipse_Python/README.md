@@ -1,1 +1,0 @@
-# Criando elipse em Python
