@@ -1,4 +1,4 @@
-# Este código cria um desenho de um hexágono que vai sendo repetida e também mudando a sua cor das linhas em forma espiral.
+# Este código cria um desenho de um hexágono que vai sendo repetida e também mudando a cor de cada linha para vermelho, roxo,azul, verde, laranja e amarelo em forma espiral.
 # É importado a biblioteca Tartaruga(turtle)
 
 import turtle

@@ -1,3 +1,7 @@
+# Este código cria um desenho de um circulo que vai sendo repetida e também mudando a cor de cada circulo para preto, magenta, azul, vermelho, amarelo, ciano, verde.
+# É importado a biblioteca Tartaruga(turtle)
+
+
 import turtle as t
 COLORS = ['black', 'magenta', 'blue', 'red', 'yellow', 'cyan','green']
 
