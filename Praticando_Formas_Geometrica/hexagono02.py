@@ -1,3 +1,4 @@
+# Este código cria um desenho de um hexágono que vai sendo repetida e também mudando a tonalidade de sua cor das linhas em forma espiral, importando a biblioteca Tartaruga(turtle)
 import turtle
 import colorsys
 

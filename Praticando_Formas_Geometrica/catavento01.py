@@ -1,3 +1,5 @@
+# Este código cria um desenho de uma cata vento com múltiplas pontas que vai sendo repetida de cor vermelha, importando a biblioteca Tartaruga(turtle)
+
 import turtle
 import colorsys
 

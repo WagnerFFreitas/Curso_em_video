@@ -1,3 +1,5 @@
+# Este código cria um desenho de uma estrela de cinco pontas que vai sendo repetida e também mudando a cor de cada linha para amarelho, azul, branco e verde, importando a biblioteca Tartaruga(turtle)
+
 import turtle
 t = turtle.Turtle()
 s = turtle.Screen()

@@ -1,1 +1,5 @@
-# Criando elipse em Python
+# Criando formas geométrica com Python
+
+**Estrelas**
+**Elipse**
+**Hexágono**

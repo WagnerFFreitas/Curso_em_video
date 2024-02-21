@@ -1,3 +1,5 @@
+# Este código cria um desenho de uma estrela de cinco pontas que vai sendo repetida e também mudando a sua cor, importando a biblioteca Tartaruga(turtle)
+
 import turtle
 import colorsys
 
