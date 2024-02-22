@@ -12,7 +12,7 @@ for i in range(302):
 	h+=1/n
 	t.color(c)
 	t.left(104)
-	t.forward(i*3)
+	t. forward(i*3)
 		for j in range(3):
 		t.left(5)
 		t.forward(i*2)
