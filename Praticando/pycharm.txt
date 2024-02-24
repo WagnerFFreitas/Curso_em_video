@@ -1,0 +1,168 @@
+				fácil
+print('olá mundo!')
+nome=input('qual é o seu nome?')
+idade=input('quantos anos você tem?')
+peso=input('quanto você pesa?')
+print(nome,idade,peso)
+print ('Olá'), nome, ('! É um prazer te conhecer!')
+print('Olá',nome,'!','Seja bem vindo!')	
+nome='rafael'
+idade='11'
+peso='55.1'
+dia=input('que dia vc nasceu?')
+mes=input('qual mes?')
+ano=input('qual ano?')
+print('Você nasceu no dia',dia,'do mês de',mes,'no ano',ano,'. Correto?')
+print('Seu nome é',nome,'e a sua idade é deanos',idade,'anos e seu peso é de',peso,'e vc nasceu em ',dia,' do mes de ',mes,' no ano de ',ano,' . Correto?')
+			número
+print(7+4)
+print('7'+'4')
+int,7,-4,0,9875
+float,4.5,0.076,-15.223,7.0
+bool,True,False
+str,'Ola','7.5',''
+				normal
+n1=input('digite um valor:')
+n1=input('digite outro:')
+n1=input('outro valor:')
+n1=input('digite um número:')
+n2=input('digite um valor:')
+n2=input('digite outro:')
+n2=input('outro valor:')
+n2=input('digite um número:')
+print('a soma vale',s)
+s=n1+n2
+n1=int(input('digite um valor:'))
+n1=int(input('digite outro:'))
+n1=int(input('digite um número:'))
+n1=int(input('outro valor:'))
+n2=int(input('digite um valor:'))
+n2=int(input('digite outro:'))
+n2=int(input('digite um número:'))
+n2=int(input('outro valor:'))
+# print('a soma entre',n1 'e' ,n2 'vale',s)
+print('a soma entre {} e {} vale {}'.format(n1,n2,s))
+print('a soma de {} e {} e iqual a {}'.format(n1,n2,s))
+n=float(input('digite um númeor:'))
+n=bool(input('digite um númeor:'))
+n=int(input('digite um númeor:'))
+n=str(input('digite um númeor:'))
+print(type(n))
+print(n.isnumeric())
+print(n.isalpha())
+print(n.isalnum())
+print(n.isupper())
+print(n.isspace())
+print('prazer em te conhecer {:20}!'.format(nome)
+print('prazer em te conhecer {:<20}!'.format(nome))
+print('prazer em te conhecer {:^20}!'.format(nome))
+print('prazer em te conhecer {:<20}!'.format(nome))
+print('prazer em te conhecer {:=^20}!'.format(nome))
+print('prazer em te conhecer {:=20}!'.format(nome))
+print('a soma vale {}'.format(n1+n2))
+							contas
++
+-
+*
+/
+//
+**
+%
+5+2
+5-2
+5*2
+5/2
+5**2
+5//2
+5%2
+1()
+2**
+3 * / // %
+4 + -
+3*(5+4)**2
+								número e palavras
+'oi'*5
+print('='*20)
+									médio
+s=n1+n2
+m=n1*n2
+d=n1/n2
+di=n1//n2
+e=n1**n2
+print('a soma é {},o produto é {} e a divisão é {}'.format(s,m,d))
+print('divisão inteira {} e potência {}'.format(di,e))
+print('a soma é {},o produto é {} e a divisão é {:.3F}'.format(s,m,d))
+print('a soma é {},o produto é {} e a divisão é {:.3F}'.format(s,m,d),end='')
+print('a soma é {},o produto é {} e a divisão é {:.3F}'.format(s,m,d),end=' ')
+print('a soma é {},\n o produto é {} e a \n divisão é {:.3F}'.format(s,m,d),end=' ')
+print('a soma é {},\n o produto é {} e a \n divisão é {:.3F}'.format(s,m,d),end=' >>> ')
+n1=float(input('primeira nota do aluno:'))
+n2=float(input('segunda nota do aluno:'))
+média=(n1+n2) /2
+print('a soma de {} e {} e iqual a {}'.format(n1,n2,média))
+print('a soma de {:.1f} e {:.1f} e iqual a {:.1f}'.format(n1,n2,média)
+math
+ceil    import math
+floor   from math import sqrt
+trunc
+pow
+sqrt
+factorial
+import math
+num=int(input('digite um número'))
+raiz=math.sqrt(num)
+print('a raiz de {} é iqual a {}'.format(num,raiz))
+print('a raiz de {} é iqual a {}'.format(num,math.ceil(raiz)))
+print('a raiz de {} é iqual a {}'.format(num,math.floor(raiz)))
+print('a raiz de {} é iqual a {:.2f}'.format(num,raiz))
+print('a raiz de {} é iqual a {:.2f}'.format(num,floor(raiz))
+from math import sqrt,floor
+from math import sqrt
+import random
+num=random.random()
+print(num)
+num=random.randint(1,10)
+							sistema
+n1 = int(input('digite um número:'))
+n2 = int(input('digite um número:'))
+opção = 0
+while opção != 5:
+    print('''    [ 1 ] somar
+    [ 2 ] multiplicar
+    [ 3 ] maior
+    [ 4 ] novos números
+    [ 5 ] sair do programa''')
+    opção = int(input('Qual é a sua opção?'))
+    if opção == 1:
+        soma = n1 + n2
+        print('A soma entre {} + {} é {}'.format(n1, n2, soma))
+    elif opção == 2:
+        produto = n1 * n2
+        print('o resultado de {} x {} é {}'.format(n1, n2, produto))
+    elif opção == 3:
+        if n1 > n2:
+            maior = n1
+        else:
+            maior = n2
+        print('Entre {} e {} o maior é {}'.format(n1, n2, maior))
+    elif opção == 4:
+        print('Informe os números novamente:')
+        n1 = int(input('Primeiro número:'))
+        n2 = int(input('Segundo número:'))
+    elif opção == 5:
+        print('Finalizando...')
+    else:
+        print('Opção inválida. Tente novamente')
+print('Fim do programa! Volte sempre!')
+
+
+
+
+
+
+
+
+
+
+
+
