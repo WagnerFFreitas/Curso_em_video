@@ -1,0 +1,622 @@
+calendário
+
+import calendar
+yy = 2012 #ano
+mm = 12 #mes
+#calendario
+print(calendar.month(yy, mm))
+
+exemplo 02
+from turtle import *
+bgcolor('black')
+color('cyan')
+speed (11)
+right(45)
+for i in range(150):
+circle (30)
+if 7 < i < 62:
+left (5)
+if 80 < i < 133:
+right (5)
+if i < 80:
+forward (10)
+else:
+forward (5)
+
+exemplo 02
+
+mport turtle
+import color
+t = turtle.turtle()
+s = turtle.Screen()
+s.bgcolor('black')
+t.speed(0)
+n = 100
+h=0
+for i in range(360):
+c=colorsys.hsv_to_rgb(h, 1, 0.8)
+h+= 1/n
+t.color(c)
+for j in range (2):
+t.left(250)
+t.forward(i*3)
+for v in range (3):
+t.left(144)
+t.forward(22)
+for v in range (3):
+t.left(18)
+t.forward(22)
+
+exemplo 03
+
+
+# and fill colour
+pencolor(a,b,c)
+fillcolor(a, b, c)
+# begins filling the star
+begin_fill()
+# loop for drawing each star
+for j in range(5):
+forward (5* n - 5 * i)
+right (x)
+forward (5* n - 5* i)
+right(72 - x)
+#colour filling complete
+end_fill()
+# rotating for
+# the next star
+rt(angle)
+# setting the parameters
+n = 30 # number of stars
+X = 144 # exterior angle of each star
+angle = 18 # angle of rotation for the spira
+draw(n, x, angle)
+
+exemplo 05
+
+
+import turtle
+import colorsys
+t = turtle.Turtle()
+turtle.Screen()
+s.bgcolor('black')
+t.speed(0)
+n = 80
+h=0
+for i in range (302):
+c=colorsys.hsv_to_rgb(h, 1, 0.8)
+ht=1/n
+t.color(c)
+t.left(154)
+t.forward(i)
+for j in range (3):
+t.left(55)
+t.forward(i)
+
+exemplo 06
+
+speeat speeds fastest
+def draw(n, x, angle):
+# Loop for number of stars
+for i in range(n)i|
+colormade(255)
+# choosing random integers
+# between 0 and 255
+# to generate random rgb values
+random.randint(0,
+a=random.randint(0, 255)
+b = random.randint(0,255)
+c = random.randint(0, 255)
+# setting the outline
+# and fill colour
+pencolor(a, b, c)
+fillcolor(a, b, c)
+# begins filling the star
+begin_fill()
+# loop for drawing each star
+for j in range(5):
+forward(5 * n - 5* i)
+right(x)
+forward(5 * n - 5 * i)
+right(72 - x)
+# colour filling complete
+end_fill()
+
+caledario
+
+import calendar
+cal = calendar.month (2022,1) # ano
+print(cal)
+#Python.hub!
+
+descobri a senha do Wi-Fi 
+import subprocess
+data= subprocess.check_output(['netsh", "wlan", "show",
+profiles = [i.split(":")[1][1:-1] for i in data if "All un
+for i in profiles:
+try:
+results = subprocess.check_output(["netsh",
+results = [b.split(":")[1][1:-1] for b in results.
+try:
+print ("{:<30}| {:<}".format(i, results[0]))
+except IndexError:
+print_("{:<30}| {:<}".format(i, ""))
+except subprocess.CalledProcessError:
+print ("{:<30}| {:<}.format(i, "ENCODI
+
+completar o codigo acima
+
+_output(['netsh',
+"show", "profiles"]).decode("utf-8", errore
+")[¹][1:-1] for i in data if "All User Profile" in i]
+process.check_output(["netsh", "Milan", "show", "profile", i, "key-clear
+split(":")[¹][1:-1] for b in results if "Key Content" in b]
+<30)| (:<}.format(i, results[0]))
+irror:
+[:30} {:<}"_format(i, ""))
+s.CalledProcessError:
+1 (:<)".format(i, "ENCODING ERROR"))
++
+
+
+Enviando notificações Desktop com Python
+
+instalar pelo terminal: pip install win10toast
+
+
+from win10toast import ToastNotifier
+# Inicializa #
+toaster = ToastNotifier()
+# Passa parâmetros e mostra a notificação #
+toaster.show_toast (
+"Notificação",
+"Olá Pycodebr :)",
+threaded=True,
+icon_path=None,
+duration=3 # 3 segundos
+)
+
+
+fatoração 
+
+
+def fatorial(n):
+fatorial
+= 1
+contador = n
+while contador >= 1:
+fatorial = fatorial *
+contador
+contador = contador - 1
+return fatorial
+print('='*10)
+print (fatorial(5))
+print (fatorial(4))
+print(fatorial(3))
+print (fatorial (10))
+print('='*30)
+
+
+
+GERADOR
+DE SENHA
+USANDO PYTHON
+
+import random
+from string import digits
+from string import punctuation
+from string import ascii_letters
+symbols = ascii_letters + digits + punctuation
+secure_random = random. SystemRandom()
+password
+'.join(secure_random.choice (symbols)
+for i in range (20))
+print (password)
+
+calcula soma
+
+
+print("*" * 20)
+print("Calculadora de Soma")
+print("*" * 20)
+num1 = int(input("Digite o primeiro valor: "))
+num2 = int(input("Digite o segundo valor: "))
+resultado = num1 + num2
+print(f"O resultado da soma entre (num) e (num2} & {resultad
+
+calculo de soma 
+print('meu primeiro programa em Python')
+a=2
+b=4
+soma = a+b
+print (soma)
+
+escanea vulnerabilidade 
+
+import requests
+target='https://xss-game.appspot.com/level1/frame'
+
+payload = {'query': "<script>alert( 'hi') </script>"}
+
+I = requests.get(target, params-payload, verify=False)
+
+if payload ['query'] in r. text:
+print('site vulnerável')
+
+else:
+
+print('site não vulnerável')
+print (r.status_code)
+printr(r.text)
+
+
+exemplo 07
+
+
+# Creating turtle
+t = turtle. Turtle()
+s = turtle. Screen()
+s.bgcolor ("black")
+t.pencolor ("red")
+a=0
+b = 0
+t.speed (0)
+t.penup()
+t.goto (0, 200)
+t.pendown()
+while (True):
+t.forward(a)
+t.right(b)
+a += 3
+b += 1
+if b == 210:
+break
+t.hideturtle
+
+exemplo 08
+
+t= turtle. Turtle()
+t.pensize(6) # Set the thicknes
+firstRowColors=
+for 1 in range (3):
+t.penup()
+t.pendown()
+t.circle (50)
+t.pencolor (firstRowColors[1])
+t.goto (1110, 0)
+["blue", "black"
+"red"] # first
+secondRow Colors = ["", "yellow", "", 
+for i in range(1, 4, 2):
+t.penup()
+t.pencolor (secondRowColors[i])
+t.goto (i* 55, -50)
+t.pendown()
+t.circle (50)
+
+combinar com o codigo acima 
+or (firstRowColors[i])
+i * 110, 0)
+own ()
+cle (50)
+RowColors = ["", "yellow",
+in range (1, 4, 2):
+t.penup()
+t.pencolor (secondRowColors[i])
+t.goto(i 55, -50)
+t.pendown ()
+t.circle (50)
+
+exemplo 09
+
+from turtle import
+speed (10)
+color('cyan')
+bgcolor('black')
+b = 200
+while b > 0:
+left(b)
+forward (b* 3)
+b = b - 1
+
+
+gerador de senha
+import random
+lower = "abcdefghijklmnopqrstuvwxyz"
+upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+numbers = "0123456789"
+symbols = "[100;*7-_"
+all = lower + upper + numbers + symbols
+length = 16
+password = "".join(random. sample (all.leng))
+print(password)
+Create a Password
+Generator in just
+40 seconds!
+
+
+exemplo 10
+import turtle
+import colorsys
+t = turtle.Turtle ()
+s = turtle.Screen()
+s.bgcolor('black')
+t.speed (0)
+n=200
+h=0
+for i in range (360):
+c=colorsys.hsv_to_rgb (h, 1, 0.8)
+h+=1/n
+t.color (c)
+t.left (2)
+t.forward (1*2)
+tright (150)
+for j in range (3) :
+t.rt (2)
+t.forward (4)
+t.lt (150)
+
+Tabuleiro de Xadrez com Python
+
+instalar pelo terminal:
+pip install numpy && matplotlib
+
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.colors import ListedColormap
+tabuleiro = np. tile([1, 0], (8, 4))
+for i in range (tabuleiro.shape [0]):
+| tabuleiro[i] = np.roll(tabuleiro[i], i % 2)
+mapa_de_cores = ListedColormap(['# 779556', '#ebecd0'])
+plt.matshow (tabuleiro, cmap=mapa_de_cores)
+plt.xticks ([])
+plt.yticks ([])
+plt.show()
+
+Convertendo imagens para preto e branco
+
+instalar pelo terminal:
+pip install pillow
+
+from PIL import Image
+# Carrega Imagem #
+image_file = Image.open(r".\colorida.png")
+# Converte Imagem para preto e branco #
+image_file = image_file.convert('L')
+# Salva imagem em preto e branco #
+image_file.save(r".\preta-e-branca.png")
+
+*****
+GERADOR
+DE SENHA
+USANDO PYTHON
+
+Create a Secure Password
+
+import random
+from string import digits
+from string import punctuation
+from string import ascii_letters
+
+symbols = ascii_letters+ digits + punctuation
+secure_random = random. SystemRandom()
+
+password = "".join(secure_random.choice (symbols)
+for i in range (20))
+
+print (password)
+
+fatoração 
+
+def fatorial(n):
+fatorial = 1
+contador = n
+while contador >= 1:
+fatorial = fatorial *
+contador
+contador = contador 1
+return fatorial
+print('='*10)
+print (fatorial (5))
+print(fatorial (4))
+print (fatorial(3))
+print(fatorial (10))
+print('=' *30)
+
+
+Enviando notificações Desktop
+
+instalar pelo terminal: 
+pip install win10toast
+
+
+from win10toast import ToastNotifier
+# Inicializa #
+toaster = ToastNotifier()
+
+# Passa parâmetros e mostra a notificação #
+toaster.show_toast(
+"Notificação",
+"Olá Pycodebr :)",
+threaded=True,
+icon_path=None,
+duration=3 # 3 segundos
+)
+
+exemplo 11
+
+import turtle
+w turtle.Screen()
+w.title('Spiral Helix')
+w.bgcolor('black')
+
+colors= ['red', 'purple', 'blue', 'green', 'orange', 'yellow
+
+t = turtle.Pen()
+t.speed (100)
+
+for x in range(360):
+color colors [x % len(colors)]
+t.pencolor(color)
+t.width(x/ 100
+t.forward(x)
+t.left(59)
+
+turtle.done()
+
+Tabuleiro de Xadrez
+
+instalar pelo terminal:
+pip install numpy && matplotlib
+
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.colors import ListedColormap
+
+tabuleiro = np.tile([1, 0], (8, 4))
+for i in range(tabuleiro.shape [0]):
+tabuleiro [i] = np.roll(tabuleiro[i], i % 2)
+
+mapa_de_cores = Listed Colormap (['#779556', '#ebecd0'])
+plt.matshow (tabuleiro, cmap=mapa_de_cores)
+plt.xticks ([])
+plt.yticks ([])
+plt.show()
+
+
+exemplo 12
+
+import turtle
+t = turtle.Turtle()
+s = turtle.Screen()
+s.bgcolor('black')
+t.speed (0)
+color = ("green", "blue", "yellow","red","white")
+for i in range (102):
+t.color(color[i%5])
+t.left(150)
+t.forward(i*2)
+t.rt(72)
+
+exemplo 13
+
+import turtle
+import colorsys
+t = turtle.Turtle()
+s = turtle.Screen()
+s.bgcolor("black")
+t.speed(0)
+n = 80
+h=e
+for i in range (302):
+c=colorsys.hsv_to_rgb(h, 1, 0.8)
+ht=1/n
+t.color(c)
+t.left(154)
+t.forward(i)
+for j in range (3):
+t.left(55)
+t.forward(i)
+
+exemplo 14
+
+
+
+import turtle
+import color
+
+t = turtle.turtle
+s = turtle.Screen()
+s.bgcolor('black')
+t.speed (0)
+n = 100
+h=0
+for i in range(360):
+c=colorsys.hsv_to_rgb(h, 1, 0.8)
+h+= 1/n
+t.color(c)
+for j in range (2):
+t.left (250)
+t.forward(i*3)
+for v in range (3):
+t.left(144)
+t.forward(22)
+for v in range (3):
+t.left(10)
+t.forward(22)
+
+exemplo 15
+import calendar
+cal = calendar.month (2022,1) # Year
+print (cal)
+#Python.hub!
+
+exemplo 16
+verificar antes de usar
+from PyPDF2 import PdfFileWriter, PdfFileReader
+
+def secure_pdf(file, password):
+parser = PdfFileWriter()
+PdfFileReader(file)
+pdf =
+for page in range(pdf.numPages):
+parser.addPage(pdf.getPage(page))
+parser.encrypt (password)
+
+with open(f"encrypted_{file}", "wb") as f:
+parser.write(f)
+f.close()
+print(f"encrypted_{file} Created...")
+
+if _ _name_ _ ="_ _main_ _":
+file = "pdf_file_name.pdf"
+password = "thisismypassword"
+secure_pdf(file, password)
+
+ENVIAR MENSAGEM DO WHATSAPP
+
+instalar pelo terminal:
+pip install pywhatkit
+
+Code:
+
+import pywhatkit as whatsapp
+whatsapp.sendwhatmsg("+19999999999", "Hi python.hub", 0, 0)
+
+Output:
+
+In 36314 seconds web.whatsapp.com will open and
+after 60 seconds message will be delivered
+
+Gerando jogos para Mega Sena
+
+from random import sample
+# gera sequencia aleatoria, sem repeticao, de numeros entre 1 e 60
+def gerar_jogo(dezenas_quantidade):
+return sorted (list (sample (range (1, 61), dezenas_quantidade)))
+
+# gera uma lista, contendo as varias sequencias numericas, limitado a
+# quantidade de jogos desejada
+def gerar lista_jogos (jogos_quantidade, dezenas_quantidade):
+lista_jogos
+list()
+while len(lista_jogos) <- jogos_quantidade:
+lista_jogos.append(
+gerar jogo(dezenas_quantidade)
+=
+****
+return lista_jogos
+
+gerar lista_jogos(5, 6)
+[[10, 13, 40, 42, 44, 54],
+[18, 33, 41, 47, 48, 57],
+[1, 5, 24, 28, 40, 52],
+[1, 10, 22, 23, 42, 58],
+[13, 19, 20, 34, 37, 49],
+[12, 24, 28, 33, 49, 50]]
+
+exemplo 16
+
+
+
+

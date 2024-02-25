@@ -1,0 +1,26 @@
+nome = input('Digite seu nome: ');
+while (len(nome) < 6 or len(nome) > 30):
+	nome = input('Digite seu nome novamente: ');
+	
+idade = input('Digite sua idade: ');
+while (idade <= 0 or idade >=100):
+	idade = input('Digite sua idade novamente: ');
+	
+peso = input('Digite seu peso: ');
+while (peso <= 0):
+	peso = input('Digite seu peso novamente: ');
+
+altura = input('Digite sua altura: ');
+while (altura <= 0):
+	altura = input('Digite sua altura novamente: ');
+
+sexo = input('Digite seu sexo: [F] or [M]: ');
+while (sexo != 'M' and sexo != 'F'):
+	sexo = input('Digite seu sexo novamente: [F] or [M]: ');
+	
+print '\n\nDados: \n';
+print '\nNome: ' + nome;
+print '\nIdade: %d' % (idade);
+print '\nPeso: %.2f' % (peso);
+print '\nAltura: %.2f' % (altura);
+print '\nSexo: ' + sexo;

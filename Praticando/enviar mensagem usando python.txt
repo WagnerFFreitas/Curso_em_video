@@ -1,0 +1,11 @@
+pip install pywhatkit
+import pywhatkit as wpp #Importa a biblioteca
+#Envia sua mensagem, os números representa o horário
+wpp.sendwhatmsg(
+'[Seu numero, com o +55 e o DDD]',
+'[sua mensagem]',
+15, 51)
+Resultado:
+Em alguns segundos, o
+web.whatsapp.com será aberto
+e sua mensagem será enviada.
